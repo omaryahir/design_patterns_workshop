@@ -32,6 +32,25 @@ Design patterns favor the maintainability of the software.
 Patterns
 --------
 
+### Layers
+(Architecture)
+
+We have a big application that requires descomposition.
+
+We have a problem with mixed complexity high and low level, 
+the petitions are maken from the low level to high level and
+the answer in inverse sense.
+
+Every layer we can describe for responsabilities, for example:
+
+Clase: Layer 1 Colaborator: Layer 2 
+Responsability: 
+- services for layer 3
+- assign tasks for layer 2
+
+Layer 1 is the layer with low abstraction.
+
+This pattern has a issue when you change the first level.
 
 
 
