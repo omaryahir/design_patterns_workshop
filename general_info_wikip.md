@@ -62,7 +62,7 @@ Structural Patterns:
 ====================
 
 ### Adapter or Wrapper: 
-Is a class that can arragement two classes ( remember electricguitar and electricacousticguitar) **like a mediator** (person who can let communication between
+Is a class that can arragement two classes, its means that it transform an interface to use like another.  ( remember electricguitar and electricacousticguitar) **like a mediator** (person who can let communication between
 persons who has different ideas).
 
 It adapts something to be used by a class, without this is imposible.
